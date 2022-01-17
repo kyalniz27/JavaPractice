@@ -12,11 +12,11 @@ public class ReverseString {
 		System.out.println("Length of string: " + str.length());
 		
 		//1. Method
-		/*
+		
 		String rev = "";
 		for(int i = str.length()-1; i >= 0; i--) {
-			rev = rev + str.charAt(i);
-		}*/
+			rev += str.charAt(i);
+		}
 		
 		//2. Method
 		/*
@@ -30,9 +30,9 @@ public class ReverseString {
 		*/
 		
 		//3. Method 
-		StringBuffer sb = new StringBuffer(str);
-		System.out.println(sb.reverse());
-		
+//		StringBuffer sb = new StringBuffer(str);
+//		System.out.println(sb.reverse());
+		System.out.println("Your reverse string: "+rev);
 		input.close();
 		
 			
